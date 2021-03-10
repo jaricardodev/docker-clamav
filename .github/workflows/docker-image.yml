@@ -20,3 +20,4 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: jaricardodev/clamav
           tag_with_ref: true
+          image: '../../../alpine/main/Dockerfile'
